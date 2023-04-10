@@ -1,0 +1,75 @@
+* {
+  font-family: "Cairo", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  background-color: #ececec;
+  color: #1b1b1f;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f3f3f3;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b29b86;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #86786b;
+}
+
+nav {
+  background-color: #f3f3f3;
+  box-shadow: 1px 1px #ffffff;
+}
+
+.alsarmad {
+  width: 64px;
+}
+
+#left {
+  margin-left: 20px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.navbar-text img {
+  width: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+  transition: 0.5s ease-out;
+}
+
+.navbar-text img:hover {
+  width: 30px;
+  transition: 0.5s ease-in-out;
+}
+
+.navbar-text img:focus {
+  width: 50px;
+  transition: 0.5s ease-in-out;
+}
+
+.card {
+  background-color: #f3f3f3;
+}
+
+mark {
+  color: #b29b86;
+  background-color: #f3f3f3;
+}
+
+i {
+  color: #b29b86;
+}
